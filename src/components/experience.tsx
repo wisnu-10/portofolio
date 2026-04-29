@@ -3,25 +3,31 @@ import { FaBriefcase } from "react-icons/fa";
 const Experience = () => {
   const experiences = [
     {
-      company: "High Tech Corp.",
-      role: "Senior Fullstack Developer",
-      period: "2023 - Present",
-      description:
-        "Leading a team of developers in building scalable web applications for enterprise clients.",
+      company: "Purwadhika Digital School",
+      role: "Student of Fullstack Web Development Program",
+      period: "2025 - 2026",
+      description: "Intensive bootcamp focusing fullstack web development",
     },
     {
-      company: "Digital Innovations",
-      role: "Frontend Developer",
-      period: "2021 - 2023",
+      company: "Ara Physio",
+      role: "Physiotherapist",
+      period: "2021 - 2025",
       description:
-        "Developed responsive and interactive code for client websites. Collaborated with designers to ensure pixel-perfect implementation of UI/UX designs.",
+        "Leading a team of therapist in building scalable physiotherapy services for clients.",
     },
     {
-      company: "Clean Code Studio",
-      role: "Junior Developer",
-      period: "2019 - 2021",
+      company: "Profession of Physiotherapy",
+      role: "Professional of Physiotherapy",
+      period: "2021 - 2022",
       description:
-        "Assisted in the development of internal tools and maintained legacy codebases. Gained hands-on experience with modern web technologies.",
+        "Provided expert physiotherapy services to clients, specializing in all type of rehabilitation and injury prevention.",
+    },
+    {
+      company: "Universitas Esa Unggul",
+      role: "Bachelor of Physiotherapy",
+      period: "2016 - 2020",
+      description:
+        "Undergraduate physiotherapy program. Developed foundational knowledge in human anatomy, physiology, and evidence-based rehabilitation techniques.",
     },
   ];
 
@@ -30,11 +36,11 @@ const Experience = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 lg:mb-24">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
-            Work <span className="text-blue-500">Experience</span>
+            Professional <span className="text-blue-500">Journey</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg animate-fade-in-up delay-100">
-            My professional journey and the companies I've had the privilege to
-            work with.
+            These are the experiences that have shaped me into the developer I
+            am today.
           </p>
         </div>
 

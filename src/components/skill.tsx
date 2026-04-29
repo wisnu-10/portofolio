@@ -4,6 +4,7 @@ import {
   FaGitAlt,
   FaDocker,
   FaGithub,
+  FaHtml5,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -11,12 +12,15 @@ import {
   SiPostgresql,
   SiExpress,
   SiPrisma,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const Skill = () => {
   const skills = [
+    { name: "HTML", icon: <FaHtml5 className="text-red-500" /> },
     { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
     { name: "React", icon: <FaReact className="text-blue-400" /> },
+    { name: "Next JS", icon: <SiNextdotjs className="text-white" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
     { name: "Express", icon: <SiExpress className="text-white" /> },
@@ -40,7 +44,7 @@ const Skill = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-10">
           {skills.map((skill) => (
             <div
               key={skill.name}

@@ -42,26 +42,6 @@ const Hero = () => {
                 Contact Me <FaEnvelope />
               </a>
             </div>
-
-            <div className="flex items-center justify-center lg:justify-start gap-8 pt-8 animate-fade-in-up delay-500">
-              <div className="flex flex-col items-center lg:items-start">
-                <span className="text-3xl lg:text-4xl font-bold text-white">
-                  5+
-                </span>
-                <span className="text-xs lg:text-sm text-gray-500 uppercase tracking-wide">
-                  Years Experience
-                </span>
-              </div>
-              <div className="w-px h-12 bg-gray-800"></div>
-              <div className="flex flex-col items-center lg:items-start">
-                <span className="text-3xl lg:text-4xl font-bold text-white">
-                  25+
-                </span>
-                <span className="text-xs lg:text-sm text-gray-500 uppercase tracking-wide">
-                  Projects Completed
-                </span>
-              </div>
-            </div>
           </div>
 
           <div className="lg:w-1/2 flex justify-center relative">
@@ -75,16 +55,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a
-          href="#about"
-          className="text-gray-500 hover:text-white transition-colors"
-        >
-          <FaArrowDown className="w-6 h-6" />
-        </a>
-      </div> */}
     </section>
   );
 };
