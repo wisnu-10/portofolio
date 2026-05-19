@@ -3,7 +3,6 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Skill from "./components/skill";
 import Portfolio from "./components/portofolio";
-import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Experience from "./components/experience";
@@ -18,7 +17,6 @@ function App() {
         <Skill />
         <Experience />
         <Portfolio />
-        <Testimonial />
         <Contact />
       </main>
       <Footer />

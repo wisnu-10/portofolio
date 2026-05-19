@@ -33,6 +33,7 @@ const Portfolio = () => {
         frontend: "https://github.com/wisnu-10/final-project-frontend",
         backend: "https://github.com/wisnu-10/final-project-backend",
       },
+      link: "https://dilaundryin.vercel.app/",
     },
   ];
 
