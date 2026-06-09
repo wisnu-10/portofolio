@@ -13,6 +13,7 @@ const Portfolio = () => {
         frontend: "https://github.com/wisnu-10/frontend-miniproject",
         backend: "https://github.com/wisnu-10/backend-miniproject",
       },
+      link : "https://eventhype.vercel.app/"
     },
     {
       title: "JAPKO Company Profile",
